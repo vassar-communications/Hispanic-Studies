@@ -1,0 +1,28 @@
+@media screen and (min-width: 37.5em)
+{
+    html.g- {
+        background: none;
+        padding-top: 7em !important;
+    }
+    
+    .g- body {
+        max-width: none;
+        margin: 0 auto;
+        padding:0;
+    }
+
+    .g- .PageContentInner
+    {
+        max-width:75em;
+        margin: 0 auto;
+        padding:0 1%;
+    }
+    
+    .g- .PageContent {
+        background: #fff url(../images/css/banner-1.jpg) top center repeat-x;
+        border-top:8px solid #000;
+    }
+}
+.u-Masthead__siteName--link {
+    padding: 0.1em;
+}
