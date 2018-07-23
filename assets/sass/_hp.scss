@@ -1,0 +1,166 @@
+
+.u-pageHome {
+	@media all and (min-width: $small) {
+
+		/*	Layout
+			------ */
+			
+		html {
+			overflow-x: hidden;
+		}
+	
+		.u-lHeader {
+			width: 100%;
+			text-align: left;
+			height: 20em;
+			position: relative;
+			margin-bottom: 3em;
+			padding: 2em 0 0 10%;
+		}
+		.u-Masthead {
+			border: none;
+			padding-top: 2.4em;
+		}
+		.u-Masthead:after {
+			content: none;
+		}
+		.u-Masthead__siteName--link {
+			display: block;
+			line-height: .9;
+		}
+		.u-lMain {
+			padding-top: 0;
+			margin-bottom: 3em;
+		}
+		.u-Search {
+			right: auto;
+			left: 11.5%;
+			width: 25%;
+			top: 1em;
+		}
+		
+		.galleria--hp {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 20;
+			width: 572px;
+			height: 800px;
+		}
+		.galleria-box {
+			height: 362px;
+			width: 50%;
+			position: absolute;
+			top: -20px;
+			right: 0;
+			overflow: hidden;
+		}
+		
+	
+		/*	Color
+			----- */
+	
+		html {
+			border-top: 4px solid #444;
+			background: none;
+		}
+		.u-NavSite .icon-facebook svg {
+			float: right;
+			margin-right: 0;
+			margin-left: .5em;
+		}
+		.u-lHeader,
+		.u-lHeader:before,
+		.u-lHeader:after {
+			background: #000;
+		}
+		.u-lHeader:before,
+		.u-lHeader:after {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 300%;
+			top: 0;
+		}
+		.u-lHeader:before {
+			right: 100%;
+		}	
+		.u-lHeader:after {
+			left: 100%;
+		}	
+	
+		.u-Search {
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #444;
+		}
+		$hpPlaceholderText: #aaa;
+		
+		
+		.u-Search__field {
+			color: $hpPlaceholderText;
+		}
+		::-webkit-input-placeholder {
+		   color: $hpPlaceholderText;
+		}
+		:-moz-placeholder { /* Firefox 18- */
+		   color: $hpPlaceholderText;  
+		}
+		::-moz-placeholder {  /* Firefox 19+ */
+		   color: $hpPlaceholderText;  
+		}
+		:-ms-input-placeholder {  
+		   color: $hpPlaceholderText;  
+		}
+		.u-Masthead__vassar {
+			display: inline-block;
+			border-top: 1px solid #444;
+			padding-top: .5em;
+			margin-top: .5em;
+		}
+			
+		
+		/*	Typography
+			---------- */
+		
+		.u-Masthead__siteName,
+		.u-Masthead__vassar {
+			text-align: left;
+		}
+		.u-Masthead__siteName--link {
+			font-family: $sans-serif;
+		    font-size: 1.4em;
+		    font-size: 10vw;
+		    width: 5em;
+		    text-align: left;
+		}
+		.u-NavSite__item {
+			text-align: right;
+		}
+
+	}
+	@media all and (min-width: $large) {
+		.u-Masthead__siteName--link {
+		    font-size: 2.4em;		
+		}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

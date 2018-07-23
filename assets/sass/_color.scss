@@ -1,0 +1,276 @@
+
+/*	COLOR
+	===== */
+
+/*	Contains styles from original site */
+
+$imagesFolder: "http://localhost:8888/chsilverman/english/assets/images/css";
+$imagesFolder: "../images/css";
+
+
+blockquote {
+    background: #FFF8E3;
+}
+@media all and (min-width: $small) {
+	html {
+	    background: #fff url("#{$imagesFolder}/banner-1.jpg") top center repeat-x;
+	}
+}
+h2 {
+    border-bottom: 5px solid #e6c8b4;
+}
+h4 {
+/*  border-bottom: 1px solid #e6c8b4; */
+}
+hr {
+border: none;
+border-top: 1px solid #ddd;
+}
+hr.hr-sub {
+border-top: 1px dashed #ddd;
+}
+a {
+    border: none;
+    color: #ce5610;
+}
+a:hover,
+a:visited:hover {
+    color: #000;
+}
+a:visited {
+	color: #BA9D8C;
+}    
+img {
+    border: 1px solid #eee;
+}
+.galleria img {
+    border: none;
+    padding: 0;
+}
+.galleria a {
+    font-size: 14px;
+}
+
+/*  Classes
+    =======
+*/
+#breadcrumbs {
+    border-bottom: 1px dashed #ccc;
+    color: #aaa;
+}
+
+#fac_position {
+    color: #666;
+}
+#section-1,
+#section-2,
+#section-3 {
+    border: none;
+    color: #888;
+}
+
+.u-NavSite a.ac-navanchor-top {
+    background: #fff;
+    border: none;
+    color: #aaa;
+}
+
+.contact_info {
+    border-bottom: 1px dashed #ddd;
+}
+.u-lAside {
+    border-top: 3px double #ccc;
+    color: #8c5631;
+}
+    .u-lAside h2 {
+        border: none;
+    }
+
+.u-lFooter {
+    position: relative;
+}
+    .u-lFooter:after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #444;
+    }
+
+.m-search:hover .submit,
+.m-search:focus .submit,
+.submit:focus,
+.m-search .submit-focus,
+.m-search-field:focus .submit {
+    background-color:#333;
+    color:#fff;
+}
+
+.u-NavSite-level-1>.u-NavSite-open {
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.u-lFooter {
+    background: #222;
+    color: #666;
+}
+    .u-lFooter a:hover {
+        color: #fff;
+    }
+    .u-NavSite a {
+        color: #ce5610;
+        text-decoration: none;
+    }
+    .u-NavSite-level-1>li>a {
+        border-bottom: 1px solid #eee;  
+    }
+    .u-NavSite-level-1>li:last-child>a {
+        border-bottom: none;    
+    }
+    .u-NavSite-level-1>.u-NavSite-open {
+        margin-top: -1px;
+    }
+
+@media all and (min-width: $small) {
+    html {
+        border-top: 8px solid #000;
+    }
+    .u-NavSite {
+        border-right: 1px solid #ea984c;
+    }
+}
+
+@media all and (min-width: $medium) {
+    .u-lAside {
+        border-bottom: none;
+    }
+    .u-NavSite {
+        background: none;
+    }
+    .u-NavSite-level-1>.u-NavSite-open {
+        border: none;
+    }
+    .u-Search {
+        border: 1px solid #fff;
+        border-top: none;
+    }
+}
+
+@media all and (min-width: $large) {
+    .vcardSiteSites {
+        border-top: none;
+    }
+
+}
+
+@media all and (min-width: $large) {
+    .u-lAside {
+        border: none;
+        border-left: 1px solid #ddd;
+    }
+    .u-lMain {
+        border: none;
+    }
+}
+
+
+/*	Masthead
+	-------- */
+
+.u-Masthead {
+	position: relative;
+}
+.ac-NavAnchor--menu:hover,
+.ac-NavAnchor--menu:visited:hover {
+	color: #fff;
+}
+.u-Masthead__siteName--link {
+	position: relative;
+	z-index: 0;
+}
+.u-Masthead__vassar--link,
+.u-Masthead__vassar--link:visited {
+	color: #ce5610;
+}
+.u-Masthead__vassar--link:hover,
+.u-Masthead__vassar--link:visited:hover {
+	color: #f9a40c;
+}
+@media all and (min-width: $small) {
+	.u-Masthead {
+		background: #000;
+		border: 1px solid #fff;
+		border-top: none;
+		box-shadow: 0 1px 1px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+		-moz-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+		display: inline-block;
+	}
+	.u-Masthead:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: .35em;
+		right: .3em;
+		bottom: .3em;
+		border: 1px solid #666;
+		border-top: none;
+	}
+	.u-Masthead__siteName--link {
+		z-index: 20;
+	}
+	.u-Masthead__siteName--link,
+	.u-Masthead__siteName--link:visited {
+		color: #fff;
+	}
+	.u-Masthead__siteName--link:hover,
+	.u-Masthead__siteName--link:visited:hover {
+		color: #f9a40c;
+	}
+	.u-Masthead__vassar {
+		border: none;
+	}
+	.u-Masthead__vassar--link {
+		color: #fff;
+	}
+	.u-Masthead__vassar--link:hover,
+	.u-Masthead__vassar--link:visited:hover {
+	    color: #ccc;
+	}
+}
+
+
+/*	Bios
+	---- */
+
+.u-biosInner {
+	.u-pageTitle {
+		border: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
