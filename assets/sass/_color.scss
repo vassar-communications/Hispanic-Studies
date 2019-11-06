@@ -15,6 +15,18 @@ blockquote {
 	html {
 	    background: #fff url("#{$imagesFolder}/banner-1.jpg") top center repeat-x;
 	}
+    
+    .gf- .PageContent
+    {
+	    background: #fff url("#{$imagesFolder}/banner-1.jpg") top center repeat-x;
+        max-width: none;
+    }
+    
+    html.gf-
+    {
+        background: none;
+        padding-top: 0 !important;
+    }
 }
 h2 {
     border-bottom: 5px solid #e6c8b4;
